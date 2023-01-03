@@ -13,6 +13,7 @@ function Hero() {
     return ( 
 
         <div className="heroContainer">
+            <h1 style={{margin:"0", position:"absolute", top:"50%", transform:"translate(0,-50%)", width:"100%", color:"#aaa" , textAlign:"center"}}>Welcome</h1>
             <form className="heroContent">
                 <div className="inputContainer">
                     <input ref={checkinRef} style={{display:"none"}} id="checkin" type="date"></input>
