@@ -1,0 +1,28 @@
+.rulesContainer{
+    width: 72%;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.rules ul{
+    font-size: 16px;
+    color:#555;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+    padding-left: 20px;
+}
+.rules li{
+    width: fit-content;
+    margin: 1px 0;
+}
+.rulesContainer h3{
+    margin: 20px 0 10px 0;
+}
+
+@media (max-width:1260px){
+    .rules ul{
+        height: auto;
+    }
+}
